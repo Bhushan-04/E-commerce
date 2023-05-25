@@ -1,0 +1,19 @@
+.banner_img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    /* object-position: center; */
+    /* opacity: .8; */
+}
+
+.carasousel{
+    margin-top: 10px;
+}
+
+
+@media (max-width:768px){
+    .banner_img{
+        object-fit: cover;
+        height: 180px;
+    }
+}
