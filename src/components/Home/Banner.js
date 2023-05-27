@@ -2,14 +2,28 @@ import React from 'react'
 import Carousel from 'react-material-ui-carousel'
 import './Banner.css';
 const Banner = () => {
-    const arr = ["./domino-164_6wVEHfI-unsplash.jpg",
-    "./paul-volkmer-updW-QUccFE-unsplash.jpg",
-    "./martin-katler-Y4fKN-RlMV4-unsplash.jpg",
-    "./paul-gaudriault-a-QH9MAAVNI-unsplash.jpg",
-    "./last.jpg"    
+    const arr = ["./1defb861e409319b.jpg",
+    "./1defb861e409319b.jpg" ,
+    "./1defb861e409319b.jpg"   ,
+    "./1defb861e409319b.jpg"   ,
+    "./1defb861e409319b.jpg"      
 ]
   return (
-    <Carousel>
+    <Carousel 
+    className='carasousel'
+    autoPlay={true}
+    animation='slide'
+    indicators={false}
+    navButtonsAlwaysVisible = {true} 
+    cycleNavigation={true}
+    navButtonsProps={{style:{
+        backgroundColor:"white",
+        color :'#494949',
+        borderRadius: 0,
+        marginTop: -22,
+        height:'104px'
+    }}}   
+    >
         {
             arr.map((image,key)=>{
                 return (

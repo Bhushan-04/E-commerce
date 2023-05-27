@@ -6,9 +6,4 @@
     min-height: calc(100vh - 60px);
     border-bottom: 2px solid rgb(199, 199, 199);
     margin-bottom: 10px;
-    background-image: url('../../../public/jakob-owens-Np_nvRuhpUo-unsplash\(1\).jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode:luminosity;
 }
